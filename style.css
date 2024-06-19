@@ -1,0 +1,342 @@
+body,h1,h2,h3,h4,h5,h6,span,a,li,ul{
+    font-family: "Work Sans", sans-serif;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+/* header style  */
+.custom-header .navbar-brand {
+    font-size: 31px;
+    font-weight: 500;
+    color: #010101;
+  }
+.custom-menu .nav-link {
+    color: #010101;
+}
+.custom-menu .nav-item a {
+    margin-left: 21px;
+  }
+.custom-header span {
+  font-size: 33px;
+  background: #6278df;
+  color: #fff;  
+  height: 51px;
+  display: inline-block;
+  width: 51px;
+  text-align: center;
+  border-radius: 10px;
+}
+#navbarSupportedContent {
+    justify-content: space-between;
+  }
+.slider-section{
+    background: url(./img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0px;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .6);
+    /* background: red; */
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: -1;
+}
+.form-custom input {
+    padding: 24px 85px;
+    border: 1px solid #5ba533;
+    border-radius: 4px;
+}
+form.form-custom button {
+    padding: 21px 59px;
+    background: #5ba533;
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 11px;
+}
+.custom-slider-caption h4 {
+    font-weight: 300;
+    padding: 33px 0px;
+}
+.custom-slider-caption h2 {
+    font-weight: 600;
+    padding-bottom: 33px;
+    font-size: 45px;
+}
+
+
+
+
+
+/* Number Counter style */
+.number-counter{
+    background: #f6f6f6;
+    
+}
+.counter-items.text-center .h2 {
+    font-size: 54px;
+}
+.counter-items.text-center p {
+    font-size: 24px;
+}
+
+
+
+/* about section */
+.about-tittle.mt-5 h2 {
+    font-size: 44px;
+}
+.about-tittle.mt-5 p {
+    font-size: 21px;
+    line-height: 33px;
+}
+
+
+
+
+
+/* feature section  */
+.feataure-section{
+    background: #faf8f8;
+}
+.section-header h2 {
+    font-size: 46px;
+    margin-bottom: 41px;
+    font-weight: 400;
+}
+.section-header p {
+    font-size: 25px;
+    font-weight: 300;
+}
+.feature-items.d-flex{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+}
+.feature-img {
+    height: 245px;
+    width: 40%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 9px 0px 0px 9px;
+}
+.feature-img img {
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    margin-left: -99px;
+} 
+.feature-caption {
+    width: 60%;
+    margin-top: 25px;
+    padding: 1px 16px;
+}
+.feature-caption h3 {
+    font-size: 22px;
+    margin-top: 19px;
+    font-weight: 400;
+}
+.feature-caption p {
+    font-size: 1.1rem;
+    color: #767676;
+    line-height: 1.4rem;
+    margin-top: 21px;
+} 
+.feature-img img:nth-child(3){
+    background: #000;
+}
+.protfoli-item a{
+    position: relative;
+    display: block;
+}
+.protfoli-item a::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    background-color: rgba(76, 179, 138, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: .6s;
+}
+.protfoli-item:hover a::after{
+    opacity: 6;
+    visibility: visible;
+    
+}
+/* pricing table sectin style */
+.s-bg{
+    background: #f7f9ff;
+}
+.pricing-item {
+    background: transparent;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+    box-sizing: border-box;
+    padding: 71px 62px;
+}
+.pricing-item h3 {
+    font-size: 45px;
+}
+.pricing-item h5 {
+    font-size: 23px;
+    font-weight: 400;
+}
+.pricing-item ul li {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 51px;
+}
+.pricing-item ul{
+    padding-left: 0;
+}
+.pricing-item ul li span {
+    font-size: 27px;
+    font-weight: bold;
+    margin-right: 11px;
+}
+/* btn pricing style  */
+.pricing-btn.text-center.mt-5 .btn {
+    width: 100%;
+    display: block;
+    padding: 22px 21px;
+    font-size: 21px;
+    background: #fff;
+    color: #6278df;
+    border: 1px solid #fff;
+    font-weight: 700;
+    box-shadow: 2.4px 2.2px 24px 1.1px #6278df;
+    transition: .5s;
+}
+.pricing-btn.text-center.mt-5 .btn:hover{
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+/* testimonial section  */
+.section-header.text-center.testi-header h2 {
+    font-size: 48px;
+}
+.testimonial-quat-aria.text-center span {
+    font-size: 108px;
+    opacity: .1;
+}
+.testimonial-quat-aria.text-center.w-75.mx-auto p {
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 43px;
+}
+.face-info {
+    width: 274px;
+    margin: auto; 
+    text-align: left;
+}
+.face-info img {
+    width: 62px;
+    border-radius: 50%;
+    float: left;
+    height: 62px;
+    margin-left: 52px;
+}
+.face-info-text {
+    width: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.face-info-text h6 {
+    font-size: 22px;
+}
+
+
+
+
+
+
+/* about section style  */
+.about-section{
+    background: #000;
+    background: #f7f9ff;
+}
+.card img {
+    width: 138px;
+    margin-left: 22px;
+    margin-top: -83px;
+}
+h3.card-title {
+    font-size: 22px;
+    padding: 11px 0px;
+}
+h6.card-subtitle {
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 19px;
+}
+/* contact section  */
+.cotact-box {
+    padding: 32px;
+}
+.footer-section{
+    background: #f7f9ff;
+}
+.col-lg.text-center.footer-p p {
+    display: inline;
+}
+.col-lg.text-center.footer-p {
+    padding-top: 31px;
+}
+
+/* .footer-section  */
+.footer-btn Button{
+    color: #ffffff;
+    background-color: #5ba533;
+    border-color: #5ba533;
+    box-shadow: 3px 3px 27px -3px #5ba533;
+}
+.footer-btn Button {
+    color: #ffffff;
+    background-color: #ffff;
+    color: #5ba533;
+    border-color: #5ba533;
+    box-shadow: 3px 3px 27px -3px #5ba533;
+}
+button.btn.btn-outline-primary.btn-lg.adroid {
+    background: #5ba533;
+    color: #fff;
+
+}
+.footer-btn Button {
+    color: #ffffff;
+    background-color: #ffff;
+    color: #5ba533;
+    padding: 11px 35px;
+    font-size: 22px;
+    font-weight: 600;
+    border-color: #5ba533;
+    box-shadow: 3px 3px 27px -3px #5ba533;
+}
+button.btn.btn-outline-primary.btn-lg span {
+    font-size: 32px;
+    margin-right: 12px;
+    display: inline-block;
+    line-height: 12px;
+}
+
+/* responsive css  */
+
+@media (max-width: 992px){
+    .about-tittle.mt-5 h2 {
+        font-size: 31px;
+    }
+    .mt-5 {
+        margin-top: inherit;
+    }
+    .card { 
+        margin-bottom: 64px;
+    }
+}
